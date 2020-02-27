@@ -1,3 +1,8 @@
+/*
+ * This class is a subclass of the Bookmark class 
+ * Allows users save bookmark according to the variables declared e.g. publicationYear
+ */
+
 package com.semanticsquare.thrillio.entities;
 
 public class Book extends Bookmark{
