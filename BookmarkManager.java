@@ -1,3 +1,7 @@
+/*
+ * Manages all bookmarks
+ */
+
 package com.semanticsquare.thrillio.managers;
 
 import com.semanticsquare.thrillio.entities.Book;
