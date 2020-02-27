@@ -9,14 +9,18 @@ import com.semanticsquare.thrillio.entities.Movie;
 import com.semanticsquare.thrillio.entities.WebLink;
 
 public class BookmarkManager {
+	
+	//Creates one instance of the BookmarkManager Class  
 	private static BookmarkManager instance = new BookmarkManager(); 
 	
 	private BookmarkManager() {}
 	
+	//Allows the one instance of the BookmarkManager to be accessed globally
 	public static BookmarkManager getInstance() {
 		return instance;
 	}
 	
+	//invoke methods to set fields of the movie object
 	public Movie createMovie(long id, String title, String profileUrl, int releaseYear, String[] cast, 
 			String[] directors, String genre, double imdbRating) {
 		Movie movie = new Movie();
@@ -32,6 +36,7 @@ public class BookmarkManager {
 		return movie;
 	}
 	
+	//invoke methods to set fields of the book object
 	public Book createBook(long id, String title, int publicationYear,
 			String publisher, String[] authors, String genre, double amazonRating) {
 		Book book = new Book();
@@ -46,6 +51,7 @@ public class BookmarkManager {
 		return book;
 	}
 	
+	//invoke methods to set fields of the weblink object
 	public WebLink createWebLink(long id, String title, String url, String host) {
 		WebLink weblink = new WebLink();
 		weblink.setId(id);
