@@ -1,3 +1,8 @@
+/*
+ * This class is a subclass of the Bookmark class 
+ * Allows users bookmark movies according to the variables declared e.g. releaseYear
+ */
+
 package com.semanticsquare.thrillio.entities;
 
 public class Movie extends Bookmark{
