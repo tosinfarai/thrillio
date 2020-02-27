@@ -1,3 +1,7 @@
+/*
+ * This is a superclass for all bookmark types 
+ */
+
 package com.semanticsquare.thrillio.entities;
 
 public class Bookmark {
