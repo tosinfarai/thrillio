@@ -1,3 +1,7 @@
+/*
+ * Displays user information and bookmarks
+ */
+
 package com.semanticsquare.thrillio.entities;
 
 public class UserBookmark {
